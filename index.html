@@ -1,0 +1,41 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Actions</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      button {
+        margin: 8px;
+        padding: 10px 18px;
+        border-radius: 6px;
+        border: 1px solid #333;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: black;
+        color: white;
+        transition: 0.3s;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Employee Data Operations</h2>
+
+    <button onclick="PrintDeveloperbyMap()">Console log Students with Map</button>
+    <button onclick="PrintDeveloperbyForEach()">Console log Students with foreach</button>
+    <button onclick="addData()">Console New Data with 4th Employee</button>
+    <button onclick="removeAdmin()">Remove Admin</button>
+    <button onclick="concatenateArray()">concatenateArray</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
